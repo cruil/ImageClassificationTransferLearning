@@ -24,7 +24,7 @@ import pickle as cPickle
 
 
 # load the user configs
-with open('conf/conf.json') as f:    
+with open('conf.json') as f:    
     conf = json.load(f)
 
 # config variables
