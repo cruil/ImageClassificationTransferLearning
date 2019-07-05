@@ -1,0 +1,17 @@
+{
+	"model"           : "inception_v3",
+	"weights"         : "imagenet",
+	"include_top"     : false,
+
+	"train_path"      : "dataset",
+	"features_path"   : "Classifier/features.h5",
+	"labels_path"     : "Classifier/labels.h5",
+	"results"         : "Classifier/results.txt",
+	"classifier_path" : "Classifier/Classifier.cpickle",
+	"model_path"	  : "Classifier/Model",
+
+	"test_size"       : 0.10,
+	"seed"            : 9,
+	"num_classes"     : 22,
+	"PREDICTION_PATH" : ""
+}
