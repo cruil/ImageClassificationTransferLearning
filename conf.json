@@ -9,6 +9,7 @@
 	"results"         : "Classifier/results.txt",
 	"classifier_path" : "Classifier/Classifier.cpickle",
 	"model_path"	  : "Classifier/Model",
+	"pred_path"	  : "Classifier/predictions"
 
 	"test_size"       : 0.10,
 	"seed"            : 9,
